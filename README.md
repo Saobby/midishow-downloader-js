@@ -3,7 +3,7 @@
 
 midishow最近使用了cloudflare的js质询，现在每个用户访问之前都需要完成一个cloudflare的人机验证，[原来的下载器](https://github.com/Saobby/midishow-downloader-selfhost)通过不了就无法下载了。于是写一个油猴脚本的版本。
 
-导入油猴即可使用。打开想要下载的midi，然后点那个三角形的播放按钮(如图)，浏览器就会自动下载那个midi
+把仓库的[user.js](https://github.com/Saobby/midishow-downloader-js/blob/main/user.js)导入油猴即可使用。打开想要下载的midi，然后点那个三角形的播放按钮(如图)，浏览器就会自动下载那个midi
 
 <img width="1821" height="1082" alt="image" src="https://github.com/user-attachments/assets/d7a7651e-f1d7-4ebd-a966-75b26972d592" />
 
