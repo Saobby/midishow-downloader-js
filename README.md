@@ -1,15 +1,17 @@
 # midishow-downloader-js
-油猴脚本，下载midishow上的midi文件
 
-midishow最近使用了cloudflare的js质询，现在每个用户访问之前都需要完成一个cloudflare的人机验证，[原来的下载器](https://github.com/Saobby/midishow-downloader-selfhost)通过不了就无法下载了。于是写一个油猴脚本的版本。
+[English](README.md) | [中文](README_CN.md)
 
-把仓库的[user.js](https://github.com/Saobby/midishow-downloader-js/blob/main/user.js)导入油猴即可使用。打开想要下载的midi，然后点那个三角形的播放按钮(如图)，浏览器就会自动下载那个midi
+A Tampermonkey script to download MIDI files from Midishow.
+
+Midishow recently implemented Cloudflare's JS challenge, requiring every user to complete a Cloudflare CAPTCHA before accessing the site. The [original downloader](https://github.com/Saobby/midishow-downloader-selfhost) can no longer bypass this, so a Tampermonkey version was created.
+
+Import the repository's [user.js](https://github.com/Saobby/midishow-downloader-js/blob/main/user.js) into Tampermonkey to use it. Open the MIDI you want to download, then click the triangular play button (as shown in the image), and the browser will automatically download the MIDI.
 
 <img width="1821" height="1082" alt="image" src="https://github.com/user-attachments/assets/d7a7651e-f1d7-4ebd-a966-75b26972d592" />
 
-需要登录你自己的midishow账户。
+You need to log in with your own Midishow account.
 
-# 免责声明
+# Disclaimer
 
-此工具仅用于教育目的。它旨在方便下载 midi。请尊重知识产权。 **未经作者许可，请勿将您下载的 midi 转发到其他网站。不要将您下载的 midi 出售给他人。** 本项目的开发人员对因使用或误用本工具而引起的任何损害、损失或法律问题不承担任何责任。这包括但不限于任何直接、间接、偶然或后果性损害。 **用户承担使用此工具的所有风险。** 本免责声明可能随时更新或修改，恕不另行通知。鼓励用户定期查看，以了解其责任和义务。
-
+This tool is for educational purposes only. It is intended to facilitate the download of MIDI files. Please respect intellectual property rights. **Do not redistribute the MIDI files you download to other websites without the author's permission. Do not sell the MIDI files you download to others.** The developers of this project assume no responsibility for any damages, losses, or legal issues arising from the use or misuse of this tool. This includes, but is not limited to, any direct, indirect, incidental, or consequential damages. **Users assume all risks associated with using this tool.** This disclaimer may be updated or modified at any time without prior notice. Users are encouraged to review it periodically to understand their responsibilities and obligations.

@@ -1,9 +1,17 @@
 // ==UserScript==
-// @name         midishow下载器
-// @namespace    http://tampermonkey.net/
-// @version      2026-07-06
-// @description  try to take over the world!
-// @author       You
+// @name         Midishow Downloader
+// @name:zh-CN   Midishow 下载器
+// @name:zh-TW   Midishow 下載器
+// @namespace    https://github.com/Saobby/midishow-downloader-js
+// @version      1.0.0
+// @description  Download MIDI files from Midishow with one click
+// @description:zh-CN  一键下载 Midishow 上的 MIDI 文件
+// @description:zh-TW  一鍵下載 Midishow 上的 MIDI 檔案
+// @author       Saobby
+// @license      MIT
+// @homepageURL  https://github.com/Saobby/midishow-downloader-js
+// @supportURL   https://github.com/Saobby/midishow-downloader-js/issues
+// @downloadURL  https://github.com/Saobby/midishow-downloader-js/raw/main/user.js
 // @match        https://www.midishow.com/midi/*
 // @match        https://www.midishow.com/zh-tw/midi/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=midishow.com
