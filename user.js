@@ -14,6 +14,7 @@
 // @downloadURL  https://github.com/Saobby/midishow-downloader-js/raw/main/user.js
 // @match        https://www.midishow.com/midi/*
 // @match        https://www.midishow.com/zh-tw/midi/*
+// @match        https://www.midishow.com/en/midi/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=midishow.com
 // @grant        none
 // ==/UserScript==
