@@ -8,7 +8,8 @@ Midishow recently implemented Cloudflare's JS challenge, requiring every user to
 
 Import the repository's [user.js](https://github.com/Saobby/midishow-downloader-js/blob/main/user.js) into Tampermonkey to use it. Open the MIDI you want to download, then click the triangular play button (as shown in the image), and the browser will automatically download the MIDI.
 
-<img width="1821" height="1082" alt="image" src="https://github.com/user-attachments/assets/d7a7651e-f1d7-4ebd-a966-75b26972d592" />
+<img width="1839" height="1218" alt="image" src="https://github.com/user-attachments/assets/75cbda35-b6fc-4cb6-b79f-62daeb14f940" />
+
 
 You need to log in with your own Midishow account.
 
